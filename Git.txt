@@ -1,0 +1,24 @@
+++++++++++++++version control++++++++++++++++++++++++++++++++++++++
+
+git config --global user.name "Your Name"
+git config --global user.email youremail@example.com
+git init
+touch index.html
+git add .
+git commit -m "Add new feature"
+git brach -M main
+git remote add origin https//github.com/username/repoName
+git branch backend
+git checkout backend
+git push origin backend
+git checkout main
+git pull origin main
+git merge main backend
+git log
+git show <commit-hash>
+
+
+---Harry faltu----------
+user.name = dum-1
+user.email = skillhivedumy@gmail.com
+url = https://github.com/dum-1/hari.git

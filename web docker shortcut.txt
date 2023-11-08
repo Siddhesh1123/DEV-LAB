@@ -1,0 +1,10 @@
+docker --version
+
+docker pull monishmukharji/collaboration
+
+docker images
+
+docker run --name sid -d -p 8089:80 monishmukharji/collaboration
+
+docker ps
+

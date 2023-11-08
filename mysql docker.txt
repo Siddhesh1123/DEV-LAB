@@ -1,0 +1,13 @@
+docker images
+
+docker pull mysql
+
+docker run --name sid -p 8083:3306 -e MYSQL_ROOT_PASSWORD=SIDSQL -d mysql
+
+docker run -it mysql /bin/bash
+
+mysql -h (ip address) -u root -p                     ->for ip address on other shell run docker inspect and copy ip address
+
+enter password : SIDSQL
+
+now you can perform sql queeries

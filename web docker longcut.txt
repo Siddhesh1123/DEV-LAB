@@ -1,0 +1,17 @@
+docker --version
+
+docker pull nginx
+
+docker images
+
+docker run --name exmaple -d -p 8080:80 ngnix
+
+create hello world in index.html on desktop in folder webapp
+
+cd desktop/webapp
+
+docker build -t webapp:latest
+
+docker images
+
+docker run --name webexample -d -p 8090:80 webapp
